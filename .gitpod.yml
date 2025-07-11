@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Start Nexus CLI
+    command: bash start.sh
+
+ports:
+  - port: 8080
+    onOpen: ignore
